@@ -321,3 +321,17 @@ body{
   border-color: rgba(110,166,255,.55);
   background: rgba(110,166,255,.10);
 }
+.hero-brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+.site-logo{
+  width:54px;
+  height:54px;
+  border-radius:16px;
+  border:1px solid var(--border);
+  object-fit:cover;
+}
